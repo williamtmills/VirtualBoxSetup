@@ -36,6 +36,8 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 2. Select 'New'.
 3. Fill out the 'Name and operating system' form.
 
+![Name and operating system form](/williamtmills/VirtualBoxSetup/docs/assets/Name_and_operating_system.png)
+
 For example:
 
 Name: Ububtu 2022
