@@ -63,15 +63,11 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 10. While in the 'Settings' window, select 'Display', select 'Screen' (default page, white bar on left), change the video memory to 128 MB, and select 'Enable 3D Acceleration'. 
 
+    ![Display settings](docs/assets/Ubuntu2022-Display.png)
 
+11. While in the 'Settings' window, select 'Storage', select 'Controller: IDE', click 'Adds optical drive' (blue disk with green plus sign), click 'Add' (blue disk with green plus sign), select file downloaded from Ubuntu above: `ubuntu-20.04.2.0-desktop-amd64.iso`, click 'Open', click 'Choose', click 'Empty' below 'Controller: IDE', click 'Removes selected storage attachment' (blue floppy disk with red x).
 
-
-11. While in the 'Settings' window, select 'Display', select 'Acceleration' (default page, white bar on left), and change the video memory to 128 MB. 
-
-
-Display > Acceleration > Enable 3D Acceleration
-
-Storage > Controler: IDE > Empty > Optical Drive > Click the 'Disk' icon > Choose/Create a Virtual Optical Disk > Add > Select 'ubuntu-20.04.2.0-desktop-amd64.iso' from Downloads folder
+    ![Storage settings]()
 
 11. Create a folder that will interface between your computer and the virtual computer.
 
