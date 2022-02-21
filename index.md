@@ -4,19 +4,30 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 ### Download VirtualBox
 
-1. Visit [VirtualBox] (https://www.virtualbox.org/).
+1. Visit [VirtualBox](https://www.virtualbox.org/).
 2. Click the blue button that says 'Download VirtualBox 6.1' (though this button may contain a different number for future versions).
 3. Click the link for your current operating system (Windows, (Mac) OS X, etc.). **NOTE:** Clicking this link will begin the download automatically.
 
 ### Download Ubuntu
 
-1. Visit [Ubuntu] (ubuntu.com).
+1. Visit [Ubuntu](ubuntu.com).
 2. Click on the 'Download' tab in the top right.
 3. Under 'Ubuntu Desktop', click the green button that says '20.04 LTS' (though the number may be different in the future, this green button represents the newest, most well supported version of Ubuntu). **NOTE:** Clicking this button will begin the download automatically.
 
+### Running VirtualBox
 
+1. Locate the VirtualBox file downloaded above.
 
-**NOTE:** Security setting on your computer may precent 
+    For Mac, fil should appear as: VirtualBox-6.1.32-149290-OSX.dmg
+    For Windows, file should appear as: VirtualBox-6.1.32-149290-Win.exe
+
+2. Double click the file to begin installation and follow the on-screen prompts.
+
+**NOTE:** Security setting on your computer may prevent VirtualBox from loading. If this occurs
+
+1. Go to 'System Preferences'.
+2. Click 'Security & Privacy'.
+3. Next to the message that reads 'System software from developer "Oracle America Inc." was blocked from loading', click 'Allow'.
 
 
 
