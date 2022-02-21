@@ -45,9 +45,9 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
     ![Hard disk form](docs/assets/Hard_disk.png)
 
-6. Fill out 'Hard disk file type' form.
+6. Fill out 'Hard disk file type' form and click 'Continue'.
 
-VDI (VirtualBox Disk Image)
+    ![Hard disk file type form](docs/assets/Hard_disk_file_type.png)
 
 7. Fill out 'Storage on physical hard disk' form
 
