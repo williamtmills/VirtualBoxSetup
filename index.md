@@ -71,7 +71,7 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 12. While in the 'Settings' window, select 'Shared Folders', click 'Adds new shared folder' (blue folder with green plus sign), under 'Folder Path:' select 'Other...', select or create folder you wish to share between your computer and the virtual computer, select 'Auto-mount', click 'OK'.
 
-    ![Shared folders settings]()
+    ![Shared folders settings](docs/assets/Ubuntu2022-SharedFolders.png)
 
 
 12. Start Ubuntu 2021
