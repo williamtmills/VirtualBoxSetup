@@ -18,8 +18,8 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 1. Locate the VirtualBox file downloaded above.
 
--For Mac, file should appear as: `VirtualBox-6.1.32-149290-OSX.dmg`
--For Windows, file should appear as: `VirtualBox-6.1.32-149290-Win.exe`
+- For Mac, file should appear as: `VirtualBox-6.1.32-149290-OSX.dmg`
+- For Windows, file should appear as: `VirtualBox-6.1.32-149290-Win.exe`
 
 2. Double click the file to begin installation and follow the on-screen prompts.
 
@@ -35,7 +35,7 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 2. Select 'New'.
 3. Fill out the 'Name and operating system' form.
 
-![Name and operating system form](/williamtmills/VirtualBoxSetup/assets/Name_and_operating_system.png)
+![Name and operating system form](/VirtualBoxSetup/assets/Name_and_operating_system.png)
 
 For example:
 
