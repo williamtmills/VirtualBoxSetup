@@ -57,12 +57,17 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
     ![File location and size form](docs/assets/File_location_and_size.png)
 
-9. Click the 'Settings (Gear)' icon, select 'System', select 'Processor', and change the number of Processors to 1 CPU. This number should never be more than half of the number of processors on your computer. For example, on a computer with a dual-core processor, select 1 CPU.
+9. Click the 'Settings' (Gear) icon, select 'System', select 'Processor', and change the number of Processors to 1 CPU. This number should never be more than half of the number of processors on your computer. For example, on a computer with a dual-core processor, select 1 CPU.
 
-    ![System settings](docs/assets/File_location_and_size.png)
+    ![System settings](docs/assets/Ubuntu2022-System.png)
 
-10. 
-Display > Video Memory > 128 MB (maximum)
+10. While in the 'Settings' window, select 'Display', select 'Screen' (default page, white bar on left), change the video memory to 128 MB, and select 'Enable 3D Acceleration'. 
+
+
+
+
+11. While in the 'Settings' window, select 'Display', select 'Acceleration' (default page, white bar on left), and change the video memory to 128 MB. 
+
 
 Display > Acceleration > Enable 3D Acceleration
 
