@@ -51,7 +51,7 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 7. Fill out 'Storage on physical hard disk' form
 
-Dynamically allocated
+    ![Storage on physical hard disk form](docs/assets/Storage_on_physical_hard_disk.png)
 
 8. Fill out the 'File location and size' form. The amount of memory you allocate to the virtual computer should depend on the needs of your bioinformatic pipelines and the memory available on your computer. An appropriate starting place would be 20 GB. If you should run out of space in the future, this number can be increased.
 
