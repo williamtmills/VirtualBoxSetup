@@ -18,8 +18,8 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 1. Locate the VirtualBox file downloaded above.
 
-- For Mac, file should appear as: `VirtualBox-6.1.32-149290-OSX.dmg`
-- For Windows, file should appear as: `VirtualBox-6.1.32-149290-Win.exe`
+    - For Mac, file should appear as: `VirtualBox-6.1.32-149290-OSX.dmg`
+    - For Windows, file should appear as: `VirtualBox-6.1.32-149290-Win.exe`
 
 2. Double click the file to begin installation and follow the on-screen prompts.
 
@@ -35,17 +35,7 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 2. Select 'New'.
 3. Fill out the 'Name and operating system' form and click 'Continue'.
 
-![Name and operating system form](docs/assets/Name_and_operating_system.png)
-
-For example:
-
-Name: Ububtu 2022
-
-Machine Folder: /Users/williamtmillsiv/VirtualBox VMs
-
-Type: Linux
-
-Version: Ubuntu (64-bit)
+    ![Name and operating system form](docs/assets/Name_and_operating_system.png)
 
 4. Fill out the 'Memory size' form. This number should be kept below half of the RAM available on your computer. For example, on a computer with 16 GB of RAM, select 8 GB (8192 MB).
 
