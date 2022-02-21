@@ -37,17 +37,15 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
     ![Name and operating system form](docs/assets/Name_and_operating_system.png)
 
-4. Fill out the 'Memory size' form. This number should be kept below half of the RAM available on your computer. For example, on a computer with 16 GB of RAM, select 8 GB (8192 MB).
+4. Fill out the 'Memory size' form and click 'Continue'. This number should be kept below half of the RAM available on your computer. For example, on a computer with 16 GB of RAM, select 8 GB (8192 MB).
 
     ![Memory size form](docs/assets/Memory_size.png)
 
-5. Fill out the 'Hard disk' form.
+5. Fill out the 'Hard disk' form and click 'Create'.
 
     ![Hard disk form](docs/assets/Hard_disk.png)
 
-Create a virtual hard disk now
-
-6. Fill out 'Hard disk file type' form
+6. Fill out 'Hard disk file type' form.
 
 VDI (VirtualBox Disk Image)
 
