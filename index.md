@@ -18,13 +18,13 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 1. Locate the VirtualBox file downloaded above.
 
-    For Mac, fil should appear as: VirtualBox-6.1.32-149290-OSX.dmg
+    For Mac, file should appear as: VirtualBox-6.1.32-149290-OSX.dmg
     
     For Windows, file should appear as: VirtualBox-6.1.32-149290-Win.exe
 
 2. Double click the file to begin installation and follow the on-screen prompts.
 
-**NOTE:** Security setting on your computer may prevent VirtualBox from loading. If this occurs
+**NOTE:** Security setting on your computer may prevent VirtualBox from loading. If this occurs (on Mac),
 
 1. Go to 'System Preferences'.
 2. Click 'Security & Privacy'.
@@ -48,6 +48,71 @@ Version: Ubuntu (64-bit)
 
 4. Fill out the 'Memory size' form. This number should be kept below half of the RAM available on your computer. For example, on a computer with 16 GB of RAM, select 8 GB (8192 MB).
 
+5. Fill out the 'Hard disk' form.
+
+Create a virtual hard disk now
+
+6. Fill out 'Hard disk file type' form
+
+VDI (VirtualBox Disk Image)
+
+7. Fill out 'Storage on physical hard disk' form
+
+Dynamically allocated
+
+8. Fill out the 'File location and size' form. The amount of memory you allocate to the virtual computer should depend on the needs of your bioinformatic pipelines and the memory available on your computer. An appropriate starting place would be 20 GB. If you should run out of space in the future, this number can be increased.
+
+/Users/williamtmillsiv/VirtualBox VMs/Ubuntu 2021/Ubuntu 2021.vdi
+20.00 GB
+
+9. Click 'Create'
+
+10. Click the 'Settings (Gear)' icon
+
+System > Processor > 1 CPU (never more than half)
+
+Display > Video Memory > 128 MB (maximum)
+
+Display > Acceleration > Enable 3D Acceleration
+
+Storage > Controler: IDE > Empty > Optical Drive > Click the 'Disk' icon > Choose/Create a Virtual Optical Disk > Add > Select 'ubuntu-20.04.2.0-desktop-amd64.iso' from Downloads folder
+
+11. Create a folder that will interface between your computer and the virtual computer.
+
+Shared Folders > Click the 'New Folder' icon
+
+Folder Path: /Users/williamtmilsiv
+Folder name: UbuntuSharing
+Check 'Auto-mount
+
+Click 'OK
+
+12. Start Ubuntu 2021
+
+13. Click 'Install Ubuntu'
+
+Keyboard layout
+Choose your keyboard layout: English (US) > English (US) > Continue
+
+Updates and other software
+What apps would you like to install to start with? > Minimal Installation (Web browser and basic utilities.)
+Other options > Download updates while installing Ubuntu
+Other options > Install third-party software for graphics and Wi-Fi hardware and additional media formats
+Continue
+
+Installation type
+This computer currently has not detected operating system. What would you like to do? > Erase disk and install Ubuntu > Install Now > Continue
+
+Where are you? > New York > Continue
+
+Who are you?
+Your name: William Mills
+Your computer's name (autofill): william-VirtualBox
+Pick a username (autofill): william
+Choose a password: 
+Confirm your password: 
+Require my password to log in
+Continue
 
 
 You can use the [editor on GitHub](https://github.com/williamtmills/VirtualBoxSetup/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
