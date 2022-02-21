@@ -14,11 +14,12 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 2. Click on the 'Download' tab in the top right.
 3. Under 'Ubuntu Desktop', click the green button that says '20.04 LTS' (though the number may be different in the future, this green button represents the newest, most well supported version of Ubuntu). **NOTE:** Clicking this button will begin the download automatically.
 
-### Running VirtualBox
+### Installing VirtualBox
 
 1. Locate the VirtualBox file downloaded above.
 
     For Mac, fil should appear as: VirtualBox-6.1.32-149290-OSX.dmg
+    
     For Windows, file should appear as: VirtualBox-6.1.32-149290-Win.exe
 
 2. Double click the file to begin installation and follow the on-screen prompts.
@@ -29,6 +30,23 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 2. Click 'Security & Privacy'.
 3. Next to the message that reads 'System software from developer "Oracle America Inc." was blocked from loading', click 'Allow'.
 
+### Create a virtual computer
+
+1. Open VirtualBox application (if not open already).
+2. Select 'New'.
+3. Fill out the 'Name and operating system form
+
+For example:
+
+Name: Ububtu 2022
+
+Machine Folder: /Users/williamtmillsiv/VirtualBox VMs
+
+Type: Linux
+
+Version: Ubuntu (64-bit)
+
+4. Fill out the 'Memory size' form. This number should be kept below half of the RAM available on your computer. For example, on a computer with 16 GB of RAM, select 8 GB (8192 MB).
 
 
 
