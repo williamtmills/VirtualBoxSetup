@@ -49,21 +49,19 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
     ![Hard disk file type form](docs/assets/Hard_disk_file_type.png)
 
-7. Fill out 'Storage on physical hard disk' form
+7. Fill out 'Storage on physical hard disk' form and click 'Continue'.
 
     ![Storage on physical hard disk form](docs/assets/Storage_on_physical_hard_disk.png)
 
-8. Fill out the 'File location and size' form. The amount of memory you allocate to the virtual computer should depend on the needs of your bioinformatic pipelines and the memory available on your computer. An appropriate starting place would be 20 GB. If you should run out of space in the future, this number can be increased.
+8. Fill out the 'File location and size' form and click 'Create'. The amount of memory you allocate to the virtual computer should depend on the needs of your bioinformatic pipelines and the memory available on your computer. An appropriate starting place would be 20 GB. If you should run out of space in the future, this number can be increased.
 
-/Users/williamtmillsiv/VirtualBox VMs/Ubuntu 2021/Ubuntu 2021.vdi
-20.00 GB
+    ![File location and size form](docs/assets/File_location_and_size.png)
 
-9. Click 'Create'
+9. Click the 'Settings (Gear)' icon, select 'System', select 'Processor', and change the number of Processors to 1 CPU. This number should never be more than half of the number of processors on your computer. For example, on a computer with a dual-core processor, select 1 CPU.
 
-10. Click the 'Settings (Gear)' icon
+    ![System settings](docs/assets/File_location_and_size.png)
 
-System > Processor > 1 CPU (never more than half)
-
+10. 
 Display > Video Memory > 128 MB (maximum)
 
 Display > Acceleration > Enable 3D Acceleration
