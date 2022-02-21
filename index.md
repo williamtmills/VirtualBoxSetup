@@ -34,7 +34,7 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 1. Open VirtualBox application (if not open already).
 2. Select 'New'.
-3. Fill out the 'Name and operating system form
+3. Fill out the 'Name and operating system' form.
 
 For example:
 
