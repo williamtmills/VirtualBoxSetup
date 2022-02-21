@@ -67,17 +67,12 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 11. While in the 'Settings' window, select 'Storage', select 'Controller: IDE', click 'Adds optical drive' (blue disk with green plus sign), click 'Add' (blue disk with green plus sign), select file downloaded from Ubuntu above: `ubuntu-20.04.2.0-desktop-amd64.iso`, click 'Open', click 'Choose', click 'Empty' below 'Controller: IDE', click 'Removes selected storage attachment' (blue floppy disk with red x).
 
-    ![Storage settings]()
+    ![Storage settings](docs/assets/Ubuntu2022-Storage.png)
 
-11. Create a folder that will interface between your computer and the virtual computer.
+12. While in the 'Settings' window, select 'Shared Folders', click 'Adds new shared folder' (blue folder with green plus sign), under 'Folder Path:' select 'Other...', select or create folder you wish to share between your computer and the virtual computer, select 'Auto-mount', click 'OK'.
 
-Shared Folders > Click the 'New Folder' icon
+    ![Shared folders settings]()
 
-Folder Path: /Users/williamtmilsiv
-Folder name: UbuntuSharing
-Check 'Auto-mount
-
-Click 'OK
 
 12. Start Ubuntu 2021
 
