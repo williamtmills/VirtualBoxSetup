@@ -39,7 +39,11 @@ This tutorial will describe how to setup a virtual computer running a Linux-base
 
 4. Fill out the 'Memory size' form. This number should be kept below half of the RAM available on your computer. For example, on a computer with 16 GB of RAM, select 8 GB (8192 MB).
 
+    ![Memory size form](docs/assets/Memory_size.png)
+
 5. Fill out the 'Hard disk' form.
+
+    ![Hard disk form](docs/assets/Hard_disk.png)
 
 Create a virtual hard disk now
 
